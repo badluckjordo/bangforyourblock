@@ -1,0 +1,36 @@
+[debug] [2017-11-28T04:47:39.703Z] ----------------------------------------------------------------------
+[debug] [2017-11-28T04:47:39.706Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-11-28T04:47:39.706Z] CLI Version:   3.14.0
+[debug] [2017-11-28T04:47:39.707Z] Platform:      darwin
+[debug] [2017-11-28T04:47:39.707Z] Node Version:  v6.10.0
+[debug] [2017-11-28T04:47:39.707Z] Time:          Mon Nov 27 2017 20:47:39 GMT-0800 (PST)
+[debug] [2017-11-28T04:47:39.708Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-28T04:47:39.741Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-28T04:47:39.741Z] > authorizing via signed-in user
+[debug] [2017-11-28T04:47:39.744Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-11-28T04:47:39.744Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/UThrHtB3NmUw3IokQGVAOnsOHGqw4N227fXFmN9F3HA',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Nov 27 2017 20:47:39 GMT-0800 (PST)
+[debug] [2017-11-28T04:47:39.966Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-28T04:47:39.969Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/bfyb-9a12f  
+ Mon Nov 27 2017 20:47:39 GMT-0800 (PST)
+[debug] [2017-11-28T04:47:40.674Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-28T04:47:40.675Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/bfyb-9a12f/tokens  
+ Mon Nov 27 2017 20:47:40 GMT-0800 (PST)
+[debug] [2017-11-28T04:47:41.258Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/waz/projects/bfyb'...
+[info] 
+[debug] [2017-11-28T04:47:41.262Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/bfyb-9a12f  
+ Mon Nov 27 2017 20:47:41 GMT-0800 (PST)
+[debug] [2017-11-28T04:47:41.770Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-28T04:47:41.771Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/446087049399/clients/_:getWebAppConfig  
+ Mon Nov 27 2017 20:47:41 GMT-0800 (PST)
+[debug] [2017-11-28T04:47:42.445Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
